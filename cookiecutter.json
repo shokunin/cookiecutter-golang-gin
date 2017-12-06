@@ -1,0 +1,9 @@
+{
+  "full_name"         : "Chris Mague",
+  "email"             : "chris.mague@shokunin.co",
+  "app_name"          : "testing",
+  "short_description" : "description goes here",
+  "release_date"      : "2017-11-11",
+  "docker_location"   : "maguec",
+  "company_name"      : "Shokunin Consulting LLC"
+}
