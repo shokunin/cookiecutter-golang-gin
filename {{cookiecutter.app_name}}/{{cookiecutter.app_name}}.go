@@ -1,7 +1,7 @@
 package main
 
 import (
-	"{{cookiecutter.app_name}}/handlers"
+	"{{cookiecutter.app_name}}/handlers/healthcheck"
 	"github.com/gin-gonic/gin"
 	"github.com/shokunin/contrib/ginrus"
 	"github.com/sirupsen/logrus"

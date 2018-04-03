@@ -2,7 +2,7 @@ package main
 
 import (
 	"encoding/json"
-	"{{cookiecutter.app_name}}/handlers"
+	"{{cookiecutter.app_name}}/handlers/healthcheck"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"net/http/httptest"
