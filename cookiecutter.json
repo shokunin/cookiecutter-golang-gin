@@ -5,5 +5,6 @@
   "short_description" : "description goes here",
   "release_date"      : "2017-11-11",
   "docker_location"   : "maguec",
+  "github_handle"     : "maguec",
   "company_name"      : "Shokunin Consulting LLC"
 }
