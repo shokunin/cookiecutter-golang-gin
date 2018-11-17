@@ -1,7 +1,11 @@
 package main
 
 import (
+<<<<<<< HEAD
 	"github.com/{{cookiecutter.github_handle}}/{{cookiecutter.app_name}}/handlers"
+=======
+	"{{cookiecutter.app_name}}/handlers/healthcheck"
+>>>>>>> 8b5d5dbe68327d37f3cfddbe57e078ff65fa90e8
 	"github.com/gin-gonic/gin"
 	"github.com/shokunin/contrib/ginrus"
 	"github.com/sirupsen/logrus"
