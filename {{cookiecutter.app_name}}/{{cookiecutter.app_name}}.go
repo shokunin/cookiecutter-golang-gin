@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/{{cookiecutter.github_handle}}/{{cookiecutter.app_name}}/handlers"
+	"github.com/{{cookiecutter.github_handle}}/{{cookiecutter.app_name}}/handlers/healthcheck"
+	"github.com/{{cookiecutter.github_handle}}/{{cookiecutter.app_name}}/handlers/app"
 	"github.com/gin-gonic/gin"
 	"github.com/shokunin/contrib/ginrus"
 	"github.com/sirupsen/logrus"
@@ -15,6 +16,7 @@ func main() {
 
 	// Start routes
 	router.GET("/health", healthcheck.HealthCheck)
+	router.GET("/", app.AppRoot)
 
 	// RUN rabit run
 	router.Run() // listen and serve on 0.0.0.0:8080

@@ -2,7 +2,8 @@ package main
 
 import (
 	"encoding/json"
-	"github.com/{{cookiecutter.github_handle}}/{{cookiecutter.app_name}}/handlers"
+	"github.com/{{cookiecutter.github_handle}}/{{cookiecutter.app_name}}/handlers/healthcheck"
+	"github.com/{{cookiecutter.github_handle}}/{{cookiecutter.app_name}}/handlers/app"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"net/http/httptest"
